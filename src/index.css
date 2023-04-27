@@ -156,18 +156,18 @@ body{
     border-bottom-right-radius: 10px;
 }
 
-.foot-image{
+.foot-image {
     height: 30px;
     margin: 18px 24px;
-    transform: translateY(0);
+    transform: rotate(-20deg);
     transition: transform 0.3s ease-out, filter 0.3s ease-in-out;
     filter: grayscale(100%);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-.foot-image:hover{
-    transform: rotate(-20deg);
+  }
+  .foot-image:hover {
+    transform: rotate(0deg);
     filter: grayscale(0%);
-}
+  }
 
 .main-container{
    border-radius:10px ;
